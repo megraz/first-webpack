@@ -1,0 +1,31 @@
+{
+    "name": "first-webpack",
+    "version": "1.0.0",
+    "description": "first-webpack",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch",
+        "serve": "webpack-dev-server --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/megraz/first-webpack.git"
+    },
+    "keywords": [
+        "Node.js"
+    ],
+    "author": "marlene",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/megraz/first-webpack/issues"
+    },
+    "homepage": "https://github.com/megraz/first-webpack#readme",
+    "dependencies": {
+        "jQuery": "^1.7.4"
+    },
+    "devDependencies": {
+        "webpack": "^3.5.5",
+        "webpack-dev-server": "^2.7.1"
+    }
+}
